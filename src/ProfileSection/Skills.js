@@ -47,7 +47,7 @@ const Wrapper = styled.div`
   text-align: left;
   p,
   h3 {
-    margin-left: 15px;
+    margin: 10px 15px;
   }
 `;
 

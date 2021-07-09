@@ -15,9 +15,12 @@ export default App;
 
 const Container = styled.div`
   display: flex;
-
-  width: 75%;
+  width: 80%;
   margin: 20px auto;
   border: 1px #e8f6ef solid;
   background-color: var(--container-color);
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 `;

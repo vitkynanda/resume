@@ -17,13 +17,13 @@ export default function Experience() {
         </Description>
       </Wrapper>
       <Wrapper>
-        <ExperienceTitle>Technician supervisor</ExperienceTitle>
+        <ExperienceTitle>Technician Supervisor</ExperienceTitle>
         <ExperienceSubTitle>
           PT. Menn Teknologi Indonesia | <span>(2017-2019)</span>
         </ExperienceSubTitle>
         <Description>
-          Responsible for managing technician duties, coordinating with
-          customers, making technician work reports, training technicians on
+          Responsible for managing technician duties, Handling customers
+          complain, making technician work reports, training technicians on
           system hardware and software.
         </Description>
       </Wrapper>
@@ -42,8 +42,8 @@ export default function Experience() {
           PT. Menn Teknologi Indonesia | <span>(2020-2021)</span>
         </ExperienceSubTitle>
         <Description>
-          Responsible for Developing the website (full stack), including
-          maintaining and troubleshooting bugs
+          Responsible for Developing the website (full stack development),
+          including maintaining and troubleshooting bugs.
         </Description>
       </Wrapper>
     </Container>

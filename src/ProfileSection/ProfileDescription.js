@@ -23,7 +23,7 @@ const Container = styled.div`
 `;
 const Text = styled.p`
   margin: 0 15px;
-  line-height: 1.5;
+  line-height: 1.6;
 `;
 
 const Title = styled.h3`
