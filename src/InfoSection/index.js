@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components/macro";
 import Experience from "./Experience";
 import Certificate from "./Certificates";
-import Reference from "./Reference";
+// import Reference from "./Reference";
 import Language from "./Languages";
 import Interest from "./Interests";
 import Projects from "./Projects";
@@ -12,7 +12,7 @@ export default function InfoSection() {
     <Container>
       <Experience />
       <Certificate />
-      <Reference />
+      {/* <Reference /> */}
       <Projects />
       <Language />
       <Interest />

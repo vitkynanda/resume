@@ -25,14 +25,19 @@ export default function Social() {
 }
 
 const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+  }
   .MuiSvgIcon-root {
     font-size: 22px;
     margin-right: 10px;
   }
-  margin: 10px 0;
 `;
 
-const Text = styled.p``;
+const Text = styled.p`
+  font-size: 14px;
+`;
 
 const Wrapper = styled.div`
   display: flex;
@@ -42,4 +47,5 @@ const Wrapper = styled.div`
 
 const Title = styled.h3`
   letter-spacing: 1.5px;
+  margin-bottom: 0;
 `;

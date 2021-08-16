@@ -3,7 +3,7 @@ import styled from "styled-components/macro";
 
 export default function Reference() {
   return (
-    <Container>
+    <Container id="reference">
       <Title>REFERENCES</Title>
       <RefWrapper>
         <Wrapper>
@@ -29,15 +29,18 @@ export default function Reference() {
   );
 }
 
-const Container = styled.div``;
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+  }
+`;
 
 const RefWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 20px;
   @media (max-width: 768px) {
-    grid-template-columns: 1fr;
-    grid-gap: 0;
   }
 `;
 
@@ -56,7 +59,7 @@ const ReferenceTitle = styled.p`
   letter-spacing: 1.2px;
   font-weight: 400;
   margin: 0;
-  font-size: 13px;
+  font-size: 14px;
   color: lightgray;
 `;
 
@@ -64,7 +67,7 @@ const ReferenceName = styled.p`
   letter-spacing: 1.1px;
   font-weight: 500;
   font-size: 15px;
-  margin: 5px 0 0 0;
+  margin-top: 5px;
 `;
 
 const Description = styled.p`

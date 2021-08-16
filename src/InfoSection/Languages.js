@@ -4,7 +4,7 @@ import FiberManualRecordTwoToneIcon from "@material-ui/icons/FiberManualRecordTw
 
 export default function Language() {
   return (
-    <Container>
+    <Container d="language">
       <LangTitle>LANGUAGES</LangTitle>
       <LangWrapper>
         <ItemsWrapper>
@@ -15,10 +15,6 @@ export default function Language() {
           <FiberManualRecordTwoToneIcon />
           <LangItems>Indonesia</LangItems>
         </ItemsWrapper>
-        {/* <ItemsWrapper>
-          <FiberManualRecordTwoToneIcon />
-          <LangItems>Japanese</LangItems>
-        </ItemsWrapper> */}
       </LangWrapper>
     </Container>
   );

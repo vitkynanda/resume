@@ -3,30 +3,30 @@ import styled from "styled-components";
 
 export default function Education() {
   return (
-    <Container>
+    <Container id="education">
       <Title>EDUCATION</Title>
       <Wrapper>
         <ListSchool>
           <SchoolTitle>
-            Bunda Mulia University <span> (2015 - 2019)</span>
+            Universitas Bunda Mulia <span> (2015 - 2019)</span>
           </SchoolTitle>
-          <Description>Bachelor Degree in Informatics Engineering</Description>
+          <Description>S1 Jurusan Teknik Informatika</Description>
         </ListSchool>
         <ListSchool>
           <SchoolTitle>
-            Sint Joseph Vocational School <span> (2012 - 2015)</span>
+            SMK Sint Joseph Jakarta <span> (2012 - 2015)</span>
           </SchoolTitle>
-          <Description>Majoring Electrical Engineering</Description>
+          <Description>Jurusan Teknik Elektronika</Description>
         </ListSchool>
         <ListSchool>
           <SchoolTitle>
-            Sint Joseph Junior Highschool <span> (2009 - 2012)</span>
+            SMP Sint Joseph Jakarta <span> (2009 - 2012)</span>
           </SchoolTitle>
           <Description></Description>
         </ListSchool>
         <ListSchool>
           <SchoolTitle>
-            Sint Joseph Elemenatary School <span> (2005 - 2009)</span>
+            SD Sint Joseph Jakarta <span> (2005 - 2009)</span>
           </SchoolTitle>
           <Description></Description>
         </ListSchool>
@@ -34,7 +34,12 @@ export default function Education() {
     </Container>
   );
 }
-const Container = styled.div``;
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+  }
+`;
 
 const Wrapper = styled.ul`
   margin-top: 0;
@@ -48,7 +53,7 @@ const SchoolTitle = styled.p`
   font-weight: 600;
   span {
     color: gray;
-    font-size: 12px;
+    font-size: 13px;
   }
 `;
 const Description = styled.p`
@@ -59,4 +64,5 @@ const Description = styled.p`
 
 const Title = styled.h3`
   letter-spacing: 1.5px;
+  margin-bottom: 0;
 `;

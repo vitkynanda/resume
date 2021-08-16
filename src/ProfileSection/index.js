@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components/macro";
 import ProfileInfo from "./ProfileInfo";
-import Controller from "./Controller";
+import Download from "./Download";
 import TextDescription from "./TextDescription";
 import Contacts from "./Contacts";
 import Social from "./Social";
@@ -12,7 +12,7 @@ import Skills from "./Skills";
 export default function Profile() {
   return (
     <Container>
-      <Controller />
+      <Download />
       <ProfileInfo />
       <TextDescription />
       <Contacts />

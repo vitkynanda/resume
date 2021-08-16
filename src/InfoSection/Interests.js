@@ -7,7 +7,7 @@ import CodeTwoToneIcon from "@material-ui/icons/CodeTwoTone";
 
 export default function Interests() {
   return (
-    <Container>
+    <Container id="interest">
       <IntTitle>INTERESTS</IntTitle>
       <IntWrapper>
         <ItemsWrapper>

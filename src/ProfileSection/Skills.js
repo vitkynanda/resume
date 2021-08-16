@@ -21,9 +21,9 @@ export default function Skills() {
         </SkillItem>
       </Wrapper>
       <Wrapper>
-        <TitleSkill>UI/UX Design</TitleSkill>
+        <TitleSkill>Design Grafis</TitleSkill>
         <SkillItem>
-          <span>Figma, Adobe XD, Adobe Illustrator, Canva</span>
+          <span>Adobe XD, Adobe Illustrator, Canva</span>
         </SkillItem>
       </Wrapper>
     </Container>
@@ -31,11 +31,18 @@ export default function Skills() {
 }
 
 const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+  }
+  p {
+    font-size: 14px;
+  }
   span {
     color: gray;
     font-weight: 600;
+    font-size: 14px;
   }
-  margin: 10px 0;
 `;
 
 const Wrapper = styled.div`
@@ -48,8 +55,9 @@ const SkillItem = styled.p`
 
 const Title = styled.h3`
   letter-spacing: 1.5px;
+  margin-bottom: 0;
 `;
 const TitleSkill = styled.h3`
-  font-size: 18px;
+  font-size: 17px;
   letter-spacing: 1.5px;
 `;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export default function ProfileInfo() {
   return (
-    <Container>
+    <Container id="home">
       <ProfileImage />
     </Container>
   );
@@ -21,8 +21,7 @@ const ProfileImage = styled.div`
   width: 150px;
   border-radius: 50%;
   margin: 10px;
-  background-image: linear-gradient(black, black),
-    url(https://akcdn.detik.net.id/community/media/visual/2021/06/10/lionel-messi-1_169.jpeg?w=700&q=90);
+  background-image: linear-gradient(black, black), url("/images/myprofile.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

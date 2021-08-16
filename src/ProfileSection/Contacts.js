@@ -24,6 +24,10 @@ export default function Contacts() {
 }
 
 const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+  }
   .MuiSvgIcon-root {
     font-size: 22px;
     margin-right: 10px;
@@ -38,4 +42,5 @@ const Wrapper = styled.div`
 
 const Text = styled.p`
   line-height: 1.5;
+  font-size: 14px;
 `;

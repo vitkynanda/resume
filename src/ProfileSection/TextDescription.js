@@ -16,13 +16,14 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
   p {
     margin: 5px;
   }
 `;
 
 const Name = styled.p`
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   span {
     font-weight: 600;
@@ -30,6 +31,6 @@ const Name = styled.p`
 `;
 
 const Role = styled.p`
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
 `;

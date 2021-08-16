@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components/macro";
 export default function Projects() {
   return (
-    <Container>
+    <Container id="project">
       <ProjectTitle>PROJECTS</ProjectTitle>
       <ProjTitle>
         If you want to see my projects, please follow link below, I put it on my
@@ -29,7 +29,12 @@ export default function Projects() {
   );
 }
 
-const Container = styled.div``;
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 768px) {
+  }
+`;
 const ProjectTitle = styled.h3`
   letter-spacing: 1.2px;
   font-weight: 500;
@@ -47,7 +52,7 @@ const ProjectItems = styled.p`
   font-size: 16px;
   letter-spacing: 1.1.px;
   span {
-    font-size: 13px;
+    font-size: 14px;
 
     a {
       text-decoration: none;
@@ -60,6 +65,6 @@ const ProjTitle = styled.p`
   letter-spacing: 1.2px;
   font-weight: 400;
   margin: 0;
-  font-size: 13px;
+  font-size: 14px;
   color: lightgray;
 `;
