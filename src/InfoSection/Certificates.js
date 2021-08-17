@@ -15,7 +15,7 @@ export default function Certificate() {
         <Description>
           Kursus terkait pengembangan website dengan teknologi modern yang
           banyak digunakan pada tahun 2021, seperti React JS, NodeJs, Express
-          Js, MongoDB
+          Js, MongoDB.<span>lihat sertifkat</span>
         </Description>
         <CertificateTitle>
           The Complete Javascript Course: From Zero to Hero
@@ -26,6 +26,7 @@ export default function Certificate() {
         <Description>
           Kursus pembelajaran Javascript mulai dari dasar sampai ke tingkat
           advance, mencakup pembelajaran ES6 dan fitur fitur terbaru pada ES6.
+          <span>lihat sertifkat</span>
         </Description>
         <CertificateTitle>
           Microservices with NodeJS and ReactJS
@@ -36,7 +37,7 @@ export default function Certificate() {
         <Description>
           Kursus membangun, menerapkan, dan menskalakan aplikasi E-Commerce
           menggunakan Microservices yang dibuat dengan Node, React, Docker, dan
-          Kubernetes
+          Kubernetes. <span>lihat sertifkat</span>
         </Description>
       </Wrapper>
     </Container>

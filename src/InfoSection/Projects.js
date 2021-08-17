@@ -21,7 +21,10 @@ export default function Projects() {
         <ProjectItems>
           Vitky's Portofolio{" "}
           <span>
-            <a href="https://github.com/vitkynanda"> https://github.com</a>
+            <a href="https://vitky-portfolio.web.app">
+              {" "}
+              https://vitky-portfolio.web.app
+            </a>
           </span>
         </ProjectItems>
       </ProjectWrapper>
